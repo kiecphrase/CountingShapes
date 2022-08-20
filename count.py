@@ -19,7 +19,7 @@ while (not test):
     inpt = int(input('give an integer between 0 and 10,000: '))
 
     # check user input
-    if(inpt > 1 and inpt < 10000):
+    if(inpt > 0 and inpt < 10000):
         test = True
     else:
         print('not valid input :(')
@@ -27,12 +27,12 @@ while (not test):
 ''' 
 
     the characters:
-    0 = ' . '
+    0 = '   '
     1 = ' _ '
     2 = ' / '
     3 = ' \ '
     4 = ' | '
-    5 = '   '
+    5 = ' . '
 
 
 '''
@@ -107,7 +107,7 @@ for g in l8:
     st = ''
     for q in g:
         if q == 0:
-            st = st + '.'
+            st = st + ' '
         elif q == 4:
             st = st + '|'
         elif q == 1:
