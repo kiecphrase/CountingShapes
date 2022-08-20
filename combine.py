@@ -57,5 +57,5 @@ def big(x):
 
 
 
-    lx = [la, l4, lb]
+    lx = [la[0], la[1], la[2], l4, lb[0], lb[1], lb[2]]
     return lx
