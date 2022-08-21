@@ -5,4 +5,4 @@
 ![post](im.png)
 
 ## How to use:
-> run count.py, prompts in the terminal
+> run count.py

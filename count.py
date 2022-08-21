@@ -67,40 +67,6 @@ if h < 4:
 else:
     san = num
 
-
-
-# test_list = ['0','1','2','3','4','5','6','7','8','9']
-
-# print('ones test')
-# for i in test_list:
-#     ones_test = oc(i)
-#     for i in ones_test:
-#         print(i)
-#     print(' ')
-
-# print('tens test')
-# for i in test_list:
-#     ones_test = tc(i)
-#     for i in ones_test:
-#         print(i)
-#     print(' ')
-
-# print('hundreds test')
-# for i in test_list:
-#     ones_test = hc(i)
-#     for i in ones_test:
-#         print(i)
-#     print(' ')
-
-# print('thousands test')
-# for i in test_list:
-#     ones_test = xc(i)
-#     for i in ones_test:
-#         print(i)
-#     print(' ')
-
-
-
 l8 = b(san)
 # print symbol
 for g in l8:
