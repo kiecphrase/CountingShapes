@@ -44,18 +44,12 @@ def big(x):
     l4 = [0,0,0,0,4,0,0,0,0]
 
     th = xc(x[0])
-    print('thousands ', th)
     hu = hc(x[1])
-    print('hundreds ', hu)
     te = tc(x[2])
-    print('tens ', te)
     on = oc(x[3])
-    print('ones ', on)
 
     la = comb(on, te)
     lb = comb(hu, th)
-
-
 
     lx = [la[0], la[1], la[2], l4, lb[0], lb[1], lb[2]]
     return lx
